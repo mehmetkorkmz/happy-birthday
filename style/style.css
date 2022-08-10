@@ -102,6 +102,12 @@ body {
   font-size: 4rem;
 }
 
+.idea-5 strong {
+  padding: 3px 5px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
 .idea-5 span,
 .idea-6 span,
 .wish-hbd span {
@@ -285,7 +291,7 @@ body {
   }
 
   .wish-hbd {
-    font-size: 2.2em;
+    font-size: 1.5em;
   }
 
   .wish h5 {
