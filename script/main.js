@@ -30,6 +30,7 @@ const animationTimeline = () => {
   const textBoxChars = document.getElementsByClassName("hbd-chatbox")[0];
   const hbd = document.getElementsByClassName("wish-hbd")[0];
 
+  
   textBoxChars.innerHTML = `<span>${textBoxChars.innerHTML
     .split("")
     .join("</span><span>")}</span`;
@@ -134,7 +135,7 @@ const animationTimeline = () => {
     .from(".idea-3", 0.7, ideaTextTrans)
     .to(".idea-3 strong", 0.5, {
       scale: 1.2,
-      x: 10,
+      x: 0,
       backgroundColor: "rgb(21, 161, 237)",
       color: "#fff"
     })
@@ -153,7 +154,12 @@ const animationTimeline = () => {
         opacity: 0
       },
       "+=0.5"
-    )
+    ).to(".idea-5 strong", 0.5, {
+      scale: 1.2,
+      x: 0,
+      backgroundColor: "rgb(255, 0, 0)",
+      color: "#fff"
+    })
     .to(
       ".idea-5 .smiley",
       0.7,
@@ -214,7 +220,7 @@ const animationTimeline = () => {
       {
         scale: 3.5,
         opacity: 0,
-        x: 25,
+        x: 250,
         y: -25,
         rotationZ: -45
       },
