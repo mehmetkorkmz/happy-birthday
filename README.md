@@ -1,4 +1,4 @@
-Bappy Birthday
+Happy Birthday
 
 https://mehmetkorkmz.github.io/happy-birthday/
 
