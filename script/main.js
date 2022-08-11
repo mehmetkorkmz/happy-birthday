@@ -14,7 +14,6 @@ const fetchData = () => {
             document.querySelector(`[data-node-name*="${customData}"]`).innerText = data[customData];
           }
         }
-
         // Check if the iteration is over
         // Run amimation if so
         if ( dataArr.length === dataArr.indexOf(customData) + 1 ) {
@@ -89,7 +88,7 @@ const animationTimeline = () => {
       opacity: 0,
       y: 10
       // scale: 0.7
-    })
+    },"+=1.5")
     .to(
       ".three",
       0.7,
