@@ -17,6 +17,19 @@ body {
   overflow: hidden;
 }
 
+#elapseClock{
+  text-align:right;
+  font-size:18px;
+  margin-top:10px;
+  margin-bottom:0px
+}
+
+#elapseClock .digit
+{
+  font-family:"digit";
+  font-size:36px
+}
+
 .container div.six {
   top: 10vh;
   z-index: 1;
@@ -49,12 +62,17 @@ body {
 }
 
 .two {
-  font-size: 1.2rem;
+  font-size: 2.0rem;
   font-weight: lighter;
 }
 
 .three {
   font-size: 3rem;
+}
+
+.three1 {
+  font-size: 2.0rem;
+  font-weight: lighter;
 }
 
 .four .text-box {
